@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  margin: 15px 0;
+  line-height: 1.25;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  transform: scale(0.995);
+}
+
+img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+header {
+  background: rgb(22, 22, 22);
+  color: rgb(192, 192, 192);
+  padding: 25px;
+  margin-bottom: 40px;
+}
+
+header a {
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  background: #2c3e50;
+  color: rgb(71 97 128);
+  padding: 25px;
+}
+
+footer a {
+  color: rgb(71 97 128);
+}
+
+footer a:hover {
+  color: rgb(96, 121, 151);
+}
+
+.footer-text {
+  margin: 15px 0;
+  line-height: 1.0;
+}
+
+.single-post {
+  padding-bottom: 25px;
+}
+
+.container {
+  max-width: 768px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 10px;
+}
+
+.btn {
+  display: inline-block;
+  background: rgb(110, 4, 4);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
+
+.btn-back {
+  background: #f4f4f4;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card {
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.card-date {
+  color: rgb(150, 150, 150);
+  font-size: 90%;
+}
+
+.card-page {
+  padding: 10px 30px;
+}
+
+.post-title {
+  margin: 10px 0;
+}
+
+.post-date {
+  color: rgb(150, 150, 150);
+  margin-bottom: 20px;
+  padding: 3px 10px;
+}
+
+.post-author-date {
+  color: rgb(150, 150, 150);
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 3px 10px;
+  font-style: italic;
+}
+
+.post-image-caption {
+  color: rgb(150, 150, 150);
+  text-align: center;
+  padding: 7px 10px;
+}
+
+.post-author {
+  color: rgb(150, 150, 150);
+}
+
+.post-body ul,
+ol {
+  font-size: 100%;
+  line-height: 1.5;
+  /* font-weight: bold; */
+  margin: 10px 0;
+  padding-left: 30px;
+}
+
+.post-body pre {
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 20px 0;
+  line-height: 2.3;
+}
+
+@media (max-width: 500px) {
+  .posts {
+    grid-template-columns: 1fr;
+  }
+}
