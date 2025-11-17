@@ -3,7 +3,6 @@ title: 'Choosing Optimization Criteria for ML'
 date: 'Oct 30, 2021'
 excerpt: 'Considerations when defining the overall optimization criteria for an ML pipeline.'
 cover_image: '/images/posts/4.jpg'
-author: 'Alex Berndt'
 ---
 
 *Soon to be published ...*

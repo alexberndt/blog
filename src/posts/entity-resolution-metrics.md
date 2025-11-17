@@ -4,7 +4,6 @@ date: 'October 29, 2021'
 excerpt: 'A set of metrics to more accurately represent the performance of entity resolution algorithms.'
 cover_image: '/images/posts/2.jpg'
 cover_image_caption: 'Entity Resolution is a very common ML problem.'
-author: 'Alex Berndt'
 ---
 
 <!-- ## Introduction to Entity Resolution

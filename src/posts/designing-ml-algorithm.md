@@ -4,7 +4,6 @@ date: 'Nov 28, 2021'
 excerpt: 'Steps to follow when designing an algorithm that contains an ML-based component.'
 cover_image: '/images/posts/1.jpg'
 cover_image_caption: 'Entity Resolution is a very common ML problem.'
-author: 'Alex Berndt'
 ---
 
 *Soon to be published ...*

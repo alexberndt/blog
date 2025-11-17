@@ -102,10 +102,11 @@ footer a:hover {
 
 .posts {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: repeat(2, 1fr); */ /* Shows the posts in a 2-column grid */
   gap: 30px;
   margin-top: 30px;
   margin-bottom: 30px;
+  
 }
 
 .card {
@@ -115,7 +116,7 @@ footer a:hover {
 }
 
 .card-title {
-  text-align: center;
+  text-align: left;
   padding-top: 10px;
 }
 
