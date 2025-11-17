@@ -4,12 +4,7 @@ import matter from 'gray-matter'
 import Head from 'next/head'
 import Post from '../components/Post'
 import { sortByDate } from '../utils'
-import {
-  siteName,
-  siteDescription,
-  siteUrl,
-  ogImageUrl,
-} from '../utils/constants'
+import { siteName, siteDescription, siteUrl, ogImageUrl } from '../utils/constants'
 
 export default function Home({ posts }) {
   return (
@@ -45,10 +40,7 @@ export async function getStaticProps() {
 
   const posts = files.map((filename) => {
     const slug = filename.replace('.md', '')
-    const markdownWithMeta = fs.readFileSync(
-      path.join('src/posts', filename),
-      'utf-8'
-    )
+    const markdownWithMeta = fs.readFileSync(path.join('src/posts', filename), 'utf-8')
     const { data: frontmatter } = matter(markdownWithMeta)
     return { slug, frontmatter }
   })
