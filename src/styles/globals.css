@@ -59,7 +59,7 @@ footer a:hover {
 
 .footer-text {
   margin: 15px 0;
-  line-height: 1.0;
+  line-height: 1;
 }
 
 .single-post {
@@ -106,7 +106,6 @@ footer a:hover {
   gap: 30px;
   margin-top: 30px;
   margin-bottom: 30px;
-  
 }
 
 .card {

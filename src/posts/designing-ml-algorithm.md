@@ -6,7 +6,7 @@ cover_image: '/images/posts/1.jpg'
 cover_image_caption: 'Entity Resolution is a very common ML problem.'
 ---
 
-*Soon to be published ...*
+_Soon to be published ..._
 
 <!-- In this article I will list the steps I follow when solving a problem that has a data component to it. I specifically avoided the term _machine learning_ because ML is simply a potential portion of a potential solution to the problems we are considering here.
 

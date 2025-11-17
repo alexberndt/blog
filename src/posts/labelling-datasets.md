@@ -5,4 +5,4 @@ excerpt: 'A note on why dataset labelling is more complicated and more critical 
 cover_image: '/images/posts/3.jpg'
 ---
 
-*Soon to be published ...*
+_Soon to be published ..._

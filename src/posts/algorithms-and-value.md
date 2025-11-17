@@ -6,7 +6,7 @@ cover_image: '/images/posts/1.jpg'
 cover_image_caption: 'Entity Resolution is a very common ML problem.'
 ---
 
-*Soon to be published ...*
+_Soon to be published ..._
 
 <!-- A common theme in data science is a passion for algorithms, models and complicated mathematical models.
 
@@ -18,7 +18,7 @@ As data scientists, we should approach problems without even considering the dat
 
 Essentially, this article is the **start simple** version of the data science domain.
 
-If you can solve the problem _without_ data, do so!  Why? Data is inherently noisy, messy and requires an entire infrastructure to be managed. If you achieve your end-goal without using data, then just don't use it. 
+If you can solve the problem _without_ data, do so!  Why? Data is inherently noisy, messy and requires an entire infrastructure to be managed. If you achieve your end-goal without using data, then just don't use it.
 
 Just because you are a data scientist, doesn't mean you have to use data whenever you solve a problem.
 

@@ -31,6 +31,28 @@ yarn build
 yarn start
 ```
 
+### Code Quality
+
+This project uses ESLint and Prettier for code quality and formatting.
+
+**Linting:**
+
+```bash
+yarn lint          # Check for linting errors
+yarn lint:fix      # Automatically fix linting errors
+```
+
+**Formatting:**
+
+```bash
+yarn format        # Format all files with Prettier
+yarn format:check  # Check if files are formatted
+```
+
+**Pre-commit hooks:**
+
+The repository uses Husky and lint-staged to automatically lint and format staged files before each commit. This ensures code quality and consistency across the codebase.
+
 ## Run with Docker
 
 The Dockerized app can be run as follows
