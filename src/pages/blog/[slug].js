@@ -9,6 +9,9 @@ export default function PostPage({
   slug,
   content,
 }) {
+  let html_content = marked(content)
+  console.log(html_content)
+
   return (
     <div className="single-post">
       <Link href="/" className="btn btn-back">
@@ -21,7 +24,7 @@ export default function PostPage({
         <img className="post-image" src={cover_image} alt="" />
         <div className="post-image-caption">{cover_image_caption}</div>
         <div className="post-body">
-          <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+          <div dangerouslySetInnerHTML={{ __html: html_content }}></div>
         </div>
       </div>
     </div>

@@ -35,7 +35,7 @@ export default function Home({ posts }) {
   )
 }
 
-export async function getStaticProps() {
+export const getStaticProps = async () => {
   const files = fs.readdirSync(path.join('src/posts'))
 
   const posts = files.map((filename) => {
