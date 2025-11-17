@@ -4,7 +4,6 @@ date: 'Sep 2, 2021'
 excerpt: "Why optimizing an ML algorithm's performance is not necessarily the same as optimizing the value that algorithm creates."
 cover_image: '/images/posts/1.jpg'
 cover_image_caption: 'Entity Resolution is a very common ML problem.'
-author: 'Alex Berndt'
 ---
 
 *Soon to be published ...*
