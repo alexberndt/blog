@@ -5,4 +5,4 @@ excerpt: 'Considerations when defining the overall optimization criteria for an 
 cover_image: '/images/posts/5.jpg'
 ---
 
-*Soon to be published ...*
+_Soon to be published ..._
