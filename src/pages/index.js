@@ -3,7 +3,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import Head from 'next/head'
 import Post from '../components/Post'
-import { sortByDate } from '../utils'
+import { compareDates } from '../utils'
 import { siteName, siteDescription, siteUrl, ogImageUrl } from '../utils/constants'
 
 export default function Home({ posts }) {
@@ -35,7 +35,7 @@ export default function Home({ posts }) {
   )
 }
 
-export async function getStaticProps() {
+export const getStaticProps = async () => {
   const files = fs.readdirSync(path.join('src/posts'))
 
   const posts = files.map((filename) => {
@@ -45,5 +45,5 @@ export async function getStaticProps() {
     return { slug, frontmatter }
   })
 
-  return { props: { posts: posts.sort(sortByDate) } }
+  return { props: { posts: posts.sort(compareDates) } }
 }
