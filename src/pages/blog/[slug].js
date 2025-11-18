@@ -10,6 +10,7 @@ export default function PostPage({
   content,
 }) {
   let html_content = marked(content)
+  console.log(content)
   console.log(html_content)
 
   return (
